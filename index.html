@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Coding Challenge</title>
+		<!-- Fredoka Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Main CSS File -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Currency Converter API</h1>
+			<form method="POST" id="currency-form">
+				<input
+					type="text"
+					name="from-currency"
+					id="from-currency"
+					placeholder="Enter The First Currency"
+				/>
+				<input
+					type="text"
+					name="to-currency"
+					id="to-currency"
+					placeholder="Enter The Second Currency"
+				/>
+				<input type="text" name="amount" id="amount" placeholder="Enter The Amount" />
+				<input type="submit" value="Convert" />
+			</form>
+			<p id="paragraph"></p>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
